@@ -1,7 +1,8 @@
-import cosas.*
+import cosas2.*
 object camion {
   const cosas = []
   method cargarCosas(unacosa) {
+    unacosa.transformar()
     cosas.add(unacosa)
   }
   method descargarCosa(unacosa) {
