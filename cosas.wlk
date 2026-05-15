@@ -41,9 +41,9 @@ object bateriaAntearea {
   }
   method peso(){
     if(tieneMisil){
-        return 300
-    } else {
         return 200
+    } else {
+        return 300
     }
   } 
   method peligrosidad() {
