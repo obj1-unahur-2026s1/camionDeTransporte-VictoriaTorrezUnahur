@@ -18,7 +18,7 @@ object camion {
   method puedeCircularEnRuta(unNivel) = not self.elPesoEstaExcedido() and cosas.all({p => p.peligrosidad() > unNivel })
   method tieneUnPesoEntre(unValor,otroValor) = cosas.filter({p => p.peso().beetwen(unValor,otroValor)})
   method cosaMasPesada() = cosas.max({p => p.peso()})
-  method aaaaa() = 
+  method aaaaa() = 09230
 }
 
 //( \(>\)) y menor que (\(<\)) 
